@@ -278,7 +278,7 @@ section {
     background-size: 100% 100%;
     background-image: url(../image/469_2800x950px_Valentine_Giftguide_banner_for_her_Desktop.jpg);
     height: 60vh;
-    object-fit: cover;
+    object-fit: contain;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -492,14 +492,13 @@ ul.dote {
     }
     #gift-view-banner {
        
-        height: 60vh;
+        height: 50vh;
     }
-    .gift-heading{
-        font-weight: bold;
-        color:white;
-        font-size: 4rem;
+   
+    .product-view-banner-heading {
+        margin-left: 35%;
     }
-    .product-view-banner-heading{
+    .gift-view-banner-heading{
         margin-left: 35%;
     }
 }
