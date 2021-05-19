@@ -49,19 +49,19 @@ h1, h6, h3 {
     color: gold;
     transition: all 0.5s;
 }
-.fa-shopping-cart:after{
-    content:attr(value);
-    font-size:12px;
+
+.fa-shopping-cart:after {
+    content: attr(value);
+    font-size: 12px;
     font-weight: bold;
     color: white;
     background: red;
-    border-radius:100%;
-    padding:5px;
-    position:relative;
-    left:-2px;
-    top:-14px;
-    
-    }
+    border-radius: 100%;
+    padding: 5px;
+    position: relative;
+    left: -2px;
+    top: -14px;
+}
 
 /* buttton */
 
@@ -277,6 +277,7 @@ section {
     background-size: 100% 100%;
     background-image: url(../image/469_2800x950px_Valentine_Giftguide_banner_for_her_Desktop.jpg);
     height: 60vh;
+    object-fit: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -328,24 +329,29 @@ section {
 .payment-container {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 /* product view */
+
 #product-details-view {
     margin-top: 0;
     background-color: #7a7b7c;
     color: white;
 }
-.color-btn{
+
+.color-btn {
     background-color: gold;
-    width:40px;
+    width: 40px;
     height: 40px;
-    border-radius:100%;
-    border:1px solid black
+    border-radius: 100%;
+    border: 1px solid black
 }
+
 ul.dote {
     text-align: start;
     font-size: 24px;
     list-style-type: square;
-  }
+}
+
 /* footer */
 
 #footer {
@@ -449,6 +455,7 @@ ul.dote {
         width: 18rem;
     }
     .product-card {
+        margin-top: 2%;
         margin-left: auto;
         margin-right: auto;
         width: 18rem;
@@ -475,6 +482,18 @@ ul.dote {
     /* end of index page */
     .cart-right-side {
         margin-top: 4%;
+    }
+  
+    /* product view end */
+    /* gift cart */
+    #gift-view-banner {
+       
+        height: 60vh;
+    }
+    .gift-heading{
+        font-weight: bold;
+        color:white;
+        font-size: 4rem;
     }
 }
 
