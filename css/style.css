@@ -487,6 +487,9 @@ ul.dote {
   
     /* product view end */
     /* gift cart */
+    #product-view-banner{
+        height: 50vh;
+    }
     #gift-view-banner {
        
         height: 60vh;
