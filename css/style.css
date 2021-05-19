@@ -254,6 +254,7 @@ section {
 /* product view */
 
 #product-view-banner {
+    object-fit: contain;
     color: white;
     margin-top: 0%;
     background-repeat: no-repeat;
@@ -495,6 +496,7 @@ ul.dote {
         color:white;
         font-size: 4rem;
     }
+    .product-view-banner-heading{
+        margin-left: 35%;
+    }
 }
-
-@media (min-width: 768px) and (max-width: 1024px) {}
