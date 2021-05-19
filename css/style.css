@@ -1,0 +1,481 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* navbar */
+
+nav {
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+}
+
+.navbar-brand {
+    font-size: 3rem;
+}
+
+h1, h6, h3 {
+    font-weight: 400;
+}
+
+.nav-item {
+    padding-right: 5%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.nav-link {
+    padding-left: 5%;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: gold;
+}
+
+.cart-link {
+    font-size: 24px;
+    color: white;
+    float: right;
+}
+
+.cart-link:hover {
+    color: gold;
+    transition: all 0.5s;
+}
+.fa-shopping-cart:after{
+    content:attr(value);
+    font-size:12px;
+    font-weight: bold;
+    color: white;
+    background: red;
+    border-radius:100%;
+    padding:5px;
+    position:relative;
+    left:-2px;
+    top:-14px;
+    
+    }
+
+/* buttton */
+
+.btn-lg {
+    width: 100%;
+}
+
+/* navbar end */
+
+/* color gold */
+
+.gold-color {
+    color: gold;
+}
+
+/* index page */
+
+/* section */
+
+section {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* banner section */
+
+.btn-header {
+    width: 20vw!important;
+}
+
+.heading {
+    font-weight: 400;
+}
+
+#banner {
+    margin-top: 0%;
+    object-fit: cover;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 80vh;
+    background-image: url(../image/Motion_1000x1000px_Startpage.jpg);
+}
+
+.banner-heading-1 {
+    padding-top: 35%;
+    font-weight: 300;
+    color: white;
+}
+
+.banner-heading-2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 6rem;
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+.top-product-btn {
+    border-radius: 0;
+    width: 100%;
+    margin-left: 5%;
+}
+
+/* product-card */
+
+.product-card:first-child {
+    margin-left: 0%;
+    width: 16rem;
+}
+
+.product-card {
+    margin-left: 4%;
+    width: 16rem;
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-body {
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.product-card-link {
+    text-decoration: none;
+}
+
+.product-card-link:hover {
+    text-decoration: none;
+}
+
+.card {
+    border: none;
+    justify-content: center;
+}
+
+.card>img {
+    height: 35vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card>img:hover {
+    transform: scale(1.1);
+}
+
+.product-name {
+    font-weight: 400;
+}
+
+.dot {
+    border: 1px solid black;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+}
+
+.dot.color-gold {
+    background-color: gold;
+}
+
+.dot.color-black {
+    background-color: #000000;
+}
+
+.dot.color-green {
+    background-color: green;
+}
+
+.dot.color-light-gold {
+    background-color: rgb(233, 191, 112);
+}
+
+.dot.color-white {
+    background-color: white;
+}
+
+/* product banner */
+
+#product-details-view {
+    background-color: #7a7b7c;
+}
+
+.new-product-container {
+    background-size: 100% 100%;
+    height: 50vh;
+    background-image: url(../image/Emerald_2224x637px_Emerald_Second_banner_Startpage.jpg);
+    object-fit: contain;
+}
+
+.product-details-start {
+    padding-top: 10%;
+    font-weight: 500;
+    padding-bottom: 2%;
+}
+
+.product-details {
+    text-align: center;
+}
+
+.explore-btn {
+    width: 50%;
+}
+
+.new-product-banner-btn {
+    width: 30%;
+}
+
+.new-product-banner-text {
+    margin-top: 22%;
+    color: white;
+    font-weight: 500;
+}
+
+.new-product-banner-h1 {
+    color: white;
+}
+
+/* product banner end */
+
+/* end of index page */
+
+/* product view */
+
+#product-view-banner {
+    color: white;
+    margin-top: 0%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(../image/CTL21_all_watches_hero_2800x850_chanelle.jpg);
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* product view end */
+
+/* gift cart */
+
+#gift-view-banner {
+    color: white;
+    margin-top: 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(../image/469_2800x950px_Valentine_Giftguide_banner_for_her_Desktop.jpg);
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* gift end */
+
+/* cart */
+
+#cart {
+    margin-top: 0%;
+    color: black;
+}
+
+.cart-left-side {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.discount-text {
+    color: green;
+}
+
+.cart-right-side {
+    height: 80vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.total-amount {
+    color: white
+}
+
+.center-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* end cart */
+
+/* checkout */
+
+.custom-control {
+    text-align: start;
+}
+
+.payment-container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* product view */
+#product-details-view {
+    margin-top: 0;
+    background-color: #7a7b7c;
+    color: white;
+}
+.color-btn{
+    background-color: gold;
+    width:40px;
+    height: 40px;
+    border-radius:100%;
+    border:1px solid black
+}
+ul.dote {
+    text-align: start;
+    font-size: 24px;
+    list-style-type: square;
+  }
+/* footer */
+
+#footer {
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #090a0a;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0%;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 6px 3px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    color: white;
+    transform: scale(1.2);
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.mailto {
+    color: white;
+    text-decoration: none;
+}
+
+.mailto:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+/* footer end */
+
+@media screen and (max-width:768px) {
+    /* navbar */
+    ul {
+        text-align: center;
+    }
+    /* index page */
+    .btn-header {
+        width: 30vw!important;
+    }
+    #banner {
+        background-size: 100% 100%;
+        background-image: url(../image/dw00100415_iconic_link_ceramic_28_black_2.png);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        width: 100%;
+        height: 60vh;
+        background-color: #2d3436;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-heading-1 {
+        font-weight: 300;
+        text-align: center;
+    }
+    .banner-heading-2 {
+        text-align: center;
+        font-size: 3rem;
+    }
+    .top-product-btn {
+        margin: 5%;
+    }
+    .product-card:first-child {
+        margin-left: auto;
+        margin-right: auto;
+        width: 18rem;
+    }
+    .product-card {
+        margin-left: auto;
+        margin-right: auto;
+        width: 18rem;
+    }
+    #new-product-banner {
+        background-color: #2d3436;
+    }
+    .new-product-container {
+        background-position: top left;
+        background-size: 50% 100%;
+        background-image: url(../image/dw00100415_iconic_link_ceramic_28_black_2.png);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .new-product-banner-btn {
+        margin-left: 40%;
+        width: 100%;
+    }
+    /* end of index page */
+    .cart-right-side {
+        margin-top: 4%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {}
