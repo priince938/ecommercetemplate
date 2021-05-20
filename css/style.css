@@ -256,6 +256,7 @@ section {
 /* product view */
 
 #product-view-banner {
+    width: 100%;
     object-fit: contain;
     color: white;
     margin-top: 0%;
@@ -274,6 +275,7 @@ section {
 /* gift cart */
 
 #gift-view-banner {
+    width: 100%;
     color: white;
     margin-top: 0;
     background-repeat: no-repeat;
