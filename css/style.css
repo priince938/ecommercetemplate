@@ -97,6 +97,7 @@ section {
 }
 
 #banner {
+    width: 100%;
     margin-top: 0%;
     object-fit: cover;
     background-size: 100% 100%;
@@ -213,6 +214,7 @@ section {
 }
 
 .new-product-container {
+    width: 100%;
     background-size: 100% 100%;
     height: 50vh;
     background-image: url(../image/Emerald_2224x637px_Emerald_Second_banner_Startpage.jpg);
@@ -467,6 +469,7 @@ ul.dote {
         background-color: #2d3436;
     }
     .new-product-container {
+        width:100%;
         background-position: top left;
         background-size: 50% 100%;
         background-image: url(../image/dw00100415_iconic_link_ceramic_28_black_2.png);
